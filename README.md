@@ -1,7 +1,7 @@
 # Forest Cover Type Detection - Linear SVM Classification
 Implementation of forest cover type classification/detection using linear support vector machine implemented with gradient descent from scratch.
 
-### Intuition behind SVM cost function
+### Intuition behind the SVM cost function
 
 The sigmoid function used for logistic regression has the following curve:
 
