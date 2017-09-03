@@ -3,7 +3,10 @@ Implementation of forest cover type classification/detection using linear suppor
 
 ### Intution behind SVM cost function
 
-The standard sigmoid function used for logistic regression looks like this
+The sigmoid function used for logistic regression has the following curve
+![alt text](https://abhinavthukral97.github.io/LinearSVMClassification/img/sigmoid.jpg "Sigmoid Function")
+
+
 
 ### Analysis of the algorithm (Report)
 
