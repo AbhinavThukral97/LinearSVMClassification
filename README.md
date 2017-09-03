@@ -20,7 +20,7 @@ In this case, we want z (= Theta transpose * X) > 0 for y = 1 and z < 0 for y = 
 
 Now, if instead of using the logarithmic terms to increase cost for incorrect predictions, we use the following cost0 and cost1 functions, our final cost function looks like:
 
-![alt text](https://abhinavthukral97.github.io/LinearSVMClassification/img/newcost.jpg "Cost function for classification with margin")
+![alt text](https://abhinavthukral97.github.io/LinearSVMClassification/img/newcost.jpg "Cost function for classification with margin and graphs")
 
 It can be inferred that the cost is zero when z>=1 for y=1 and increases linearly for z<1.
 Similarly, the cost is zero when z<=-1 for y=0 and increases linearly for z>-1.
