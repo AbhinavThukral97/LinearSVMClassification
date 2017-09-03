@@ -27,6 +27,8 @@ Similarly, the cost is zero when z<=-1 for y=0 and increases linearly for z>-1.
 
 If this new cost function is minimized, it ensures that z > 1 for y = 1 and z < -1 for y = 0, as opposed to the previous case. Hence, it adds margin of 1 to our predictions, resulting in a better decision boundary/hyperplane.
 
+Maximising margins is the main intution behind the functioning of support vector machines. 
+
 ### Analysis of the algorithm (Report)
 
 * Model used:  Linear SVM using Gradient Descent
