@@ -7,7 +7,25 @@ The sigmoid function used for logistic regression has the following curve:
 
 ![alt text](https://abhinavthukral97.github.io/LinearSVMClassification/img/sigmoid.jpg "Sigmoid Function")
 
+The classification of the hypothesis is considered 1 if sigmoid(z)>=0.5 and 0 if it is <0.5
 
+The cost for such classification with margins is hence:
+
+![alt text](https://abhinavthukral97.github.io/LinearSVMClassification/img/oldcost.jpg "Cost function for classification without margin")
+_(Cost without regularisation)_
+
+In this case, we want z (= Theta transpose * X) > 0 for y = 1 and z < 0 for y = 0
+
+**__Changing the cost functions__**
+
+Now, if instead of using the logarithmic terms to increase cost for incorrect predictions, we use the following cost0 and cost1 functions, our final cost function looks like:
+
+![alt text](https://abhinavthukral97.github.io/LinearSVMClassification/img/newcost.jpg "Cost function for classification with margin")
+
+It can be inferred that the cost is zero when z>=1 for y=1 and increases linearly for z<1.
+Similarly, the cost is zero when z<=-1 for y=0 and increases linearly for z>-1.
+
+If this new cost function is minimized, it ensures that z > 1 for y = 1 and z < -1 for y = 0, as opposed to the previous case. Hence, it adds margin of 1 to our predictions, resulting in a better decision boundary/hyperplane.
 
 ### Analysis of the algorithm (Report)
 
