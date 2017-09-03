@@ -35,6 +35,7 @@ Maximising margins is the main intuition behind the functioning of support vecto
 * Learning rate: 0.01
 * No. of iterations: 500
 * No. of features: 26
+* No. of classes/labels: 4
 * Training data size: 417
 * Test data size: 105
 * No. of validation tests performed: 5
