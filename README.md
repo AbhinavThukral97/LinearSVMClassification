@@ -9,7 +9,7 @@ The sigmoid function used for logistic regression has the following curve:
 
 The classification of the hypothesis is considered 1 if sigmoid(z)>=0.5 and 0 if it is <0.5
 
-The cost for such classification with margins is hence:
+The cost for such classification without margins is hence:
 
 ![alt text](https://abhinavthukral97.github.io/LinearSVMClassification/img/oldcost.jpg "Cost function for classification without margin")
 _(Cost without regularisation)_
