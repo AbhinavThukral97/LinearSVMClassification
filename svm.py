@@ -2,7 +2,7 @@
 Title: Detection of Forest Cover Type using Linear SVM
 Author: Abhinav Thukral
 Description: 
-Built Linear SVM from scratch in Python 3.5 for multi-class classification of forest cover types.
+Built Linear SVM from scratch in Python 3.6.1 for multi-class classification of forest cover types.
 Implementation of Linear SVM (Support Vector Machine Classification), Gradient Descent, one v/s all classification, feature scaling and cross validations from scratch.
 """
 
