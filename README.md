@@ -1,7 +1,7 @@
 # Forest Cover Type Detection - Linear SVM Classification
 Implementation of forest cover type classification/detection using linear support vector machine implemented with gradient descent from scratch.
 
-### Intution behind SVM cost function
+### Intuition behind SVM cost function
 
 The sigmoid function used for logistic regression has the following curve:
 
@@ -25,9 +25,9 @@ Now, if instead of using the logarithmic terms to increase cost for incorrect pr
 It can be inferred that the cost is zero when z>=1 for y=1 and increases linearly for z<1.
 Similarly, the cost is zero when z<=-1 for y=0 and increases linearly for z>-1.
 
-If this new cost function is minimized, it ensures that z > 1 for y = 1 and z < -1 for y = 0, as opposed to the previous case. Hence, it adds margin of 1 to our predictions, resulting in a better decision boundary/hyperplane.
+If this new cost function is minimized, it ensures that z > 1 for y = 1 and z < -1 for y = 0, as opposed to the previous case. Hence, it adds a margin of 1 to our predictions, resulting in a better decision boundary/hyperplane.
 
-Maximising margins is the main intution behind the functioning of support vector machines. 
+Maximising margins is the main intuition behind the functioning of support vector machines. 
 
 ### Analysis of the algorithm (Report)
 
